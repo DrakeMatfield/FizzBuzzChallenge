@@ -1,1 +1,11 @@
 # FizzBuzzChallenge
+
+In this assignment, you'll build a FizzBuzz app from scratch. In the original game of Fizz Buzz, you count from 1 to a given number (let's say 100). For each number if it's not divisible by 3 or 5, you simply say the number. If it's divisible by 3, instead of the number you say "fizz". If it's divisible by 5, you say "buzz". And finally if it's divisible by both 3 and 5, you say "fizz buzz". So, counting from 1 to 15, you'd say: "1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz, 11, fizz, 13, 14, fizz buzz".
+
+This is admittedly not a very useful program, but as it turns out it's a great small project to do, for two reasons. First, it brings together all of the programming fundamentals we've learned so far. To complete this project, you'll need to use loops, conditionals and the modulo operator (and that's about all the help you'll get from us about implementing the JavaScript). Second, and as a consequence of the first point, FizzBuzz is a popular problem that interviewees will be asked to solve in technical interviews. If your goal is to become a professional developer, you definitely should know how to code up FizzBuzz. According to some commentators, the ability to code up FizzBuzz falls flat amongst the top half percent of programmers who actually know how to program!
+The requirements for this app are as follows:
+
+
+* DO NOT spend any time designing this app or making it look pretty. We don't want you to consider UX at all here, since the point is to build up your programming fundamentals.
+* At a minimum, you'll need an HTML file and a JavaScript file. The HTML file should link to your application JavaScript file. The program should append each number (or its "fizz"/"buzz"/"fizzbuzz" substitution) to the body element of the DOM (On the page) or simple console program will work.
+* The program should print out each number (not 'one' for 1, but 1 for 1), from 1 to 100, replacing numbers divisible by both 3 and 5 with "fizz buzz", those divisible by 3 with "fizz", and those divisible by 5 with "buzz".
